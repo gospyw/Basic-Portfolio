@@ -1,0 +1,108 @@
+.nav:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.topnav-right{
+    background: lightblue;
+    color: orange;
+    position: fixed;
+    top:30px;
+    right: 3px;
+    float: right;
+    width: 100%;
+    padding: 10px;
+}
+   
+a{
+    color: red;
+}
+
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+    border-style: solid;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+  ul {
+    border-right: 1.5px solid red;
+  }
+  
+  ul:last-child {
+    border-right: none;
+  }
+
+ul{
+    float: right;
+}
+
+body {
+    background-color: thistle;
+  }
+  
+  p {
+    color: black;
+  }
+
+  p{ 
+      float: right;
+      width: 40%;
+      margin-top: 50px;
+      border: 5px solid #000;
+      padding: 10px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+
+  img{
+      margin: 20px;
+      padding: 5px;
+      float: left;
+
+  }
+  
+
+  h1{
+
+    color: mediumorchid;
+    float: left;
+    width: 33%;
+    margin-top: 100px;
+    padding: 1%;
+    height: 60px;
+  }
+
+  h2{
+      background: green;
+      color: aliceblue;
+      float: left;
+      
+  }
+  .content p{
+      float: left;
+      margin: 5px;
+      border: 5px;
+      padding: 10px;
+      background: red;
+      text-align: justify;
+  }
+
+  
+
